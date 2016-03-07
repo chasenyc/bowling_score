@@ -76,9 +76,10 @@ const score = (frames) => {
     var sum = 0
     for (i = 0; i < frameCount(); i++) {
       sum = sum + totalScore(i)
-      console.log(i, sum)
     }
     return sum
   }
   return fullScore()
 }
+
+// console.log(score([[2, 3], [3, 4], [7, 2]]))
